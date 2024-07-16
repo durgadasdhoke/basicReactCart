@@ -1,0 +1,28 @@
+.container{
+    width: 40%;
+    margin: auto;
+}
+
+.cartitems{
+    margin: auto;
+    border: 1px solid black;
+    >.card{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media(max-width: 900px) {
+    .container{
+        width: 100%;
+    }
+}
+.payBtn{
+    border: none;
+    background-color:yellow ;
+    padding: 5px;
+    border-radius: 5px;
+}
+.payBtn:hover{
+    cursor: pointer;
+}
